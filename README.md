@@ -1,14 +1,20 @@
-# XCA News Swift Win-RT & WinUI Windows App
+# XCA News Swift WinRT & WinUI Windows App
+
+![alt text](https://i.ibb.co/6mymjgR/Whats-App-Image-2024-02-04-at-18-01-06-4fb748b1.jpg)
 
 News app for Swift on Windows, showcasing how to build Windows News Apps using the [Windows App SDK](https://github.com/microsoft/windowsappsdk) through the [Swift/WinRT](https://github.com/thebrowsercompany/swift-winrt) language projection.
 
 ## Setup
 
 ### Requirements
-1. Install latest Swift SDK from https://www.swift.org/download/
+1. Install The Browser Company Windows Swift Build 20231213:
+https://github.com/thebrowsercompany/swift-build/releases/tag/20231213.3
 2. Install latest CMake: `winget install --id Kitware.CMake`
 3. Windows SDK 10.0.20348.0: https://go.microsoft.com/fwlink/?linkid=2164145
 4. Visual Studio Community with C++ build tools
+
+### Video Tutorial
+Follow the video tutorial on building the app from scratch: https://youtu.be/hbo98xNLzog
 
 ### VSCode
 

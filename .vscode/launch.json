@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug XCANewsApp (XCANewsApp)",
+            "program": "${workspaceFolder:winrt-samples}\\XCANewsApp\\.build/debug/XCANewsApp",
+            "args": [],
+            "cwd": "${workspaceFolder:winrt-samples}/XCANewsApp",
+            "preLaunchTask": "swift: Build Debug XCANewsApp (XCANewsApp)"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release XCANewsApp (XCANewsApp)",
+            "program": "${workspaceFolder:winrt-samples}\\XCANewsApp\\.build/release/XCANewsApp",
+            "args": [],
+            "cwd": "${workspaceFolder:winrt-samples}/XCANewsApp",
+            "preLaunchTask": "swift: Build Release XCANewsApp (XCANewsApp)"
+        }
+    ]
+}
